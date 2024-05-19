@@ -29,3 +29,5 @@ export const postRequest = async (url, data, options) => {
   instance.defaults.headers["Content-Type"] = "application/json";
   return response;
 };
+
+export default instance;
